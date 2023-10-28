@@ -1,0 +1,112 @@
+
+body{
+    text-transform: uppercase;
+    background-color: #110f0f;
+    color: white;
+    font-family: arial;
+    margin:0px;
+    padding: 0px;
+    font-size: 14px;
+}
+
+h3{
+    border-bottom: orange solid 5px;
+    font-size: 19px !important;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 300px;
+}
+
+footer{
+    padding: 30px;
+}
+#footer{
+    background-image: url(./O-rato-verde-rato-fink-hamb-rguer-rosa-figura-de-a-o-brinquedo-modelo-colecion-vel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1100px;
+    height: 720px; 
+    padding-bottom: 30px;
+    padding-right: 180px;
+}
+
+li{ 
+    list-style: none;
+}
+
+.lanche{
+    margin-left: 200px;
+    position: sticky;
+
+}
+
+.ingredientes{
+    position: relative;
+    left: -720px;
+    display: inline-block;
+    width: 700px;
+    padding-top: 20px;
+}
+
+input{
+    position: relative;
+    top: -40px;
+    margin-left: 900px;
+}
+
+.ingredientes{
+    transition-timing-function: ease;
+    transition-duration: 2s;
+    
+    font-size: 9px;
+    color: white;
+}
+
+.ingredientes:hover{
+    transform: translateX(30px);
+    color:orange;
+    font-size: 15px;
+}
+
+
+
+.valor{
+    margin-right: -300px;
+    position: relative;
+    width: 100px;
+    position: relative;
+    top: -18px;
+    margin-left: 900px;
+}
+
+#valor{
+    font-size: 19px;
+    text-align: center;
+}
+
+#resultado{
+    position: relative;
+    left: 570px;
+    text-align: center;
+    width: 200px;
+    height: 90px;
+    background-color: white;
+    font-size: 70px;
+    color: black;
+    
+}
+
+#confirmar{
+    width: 180px;
+    height: 80px;
+    position: relative;
+    right: -300px;
+    background-color: blueviolet;
+    font-size: 20px;
+    font-family: arial;
+    color: white;
+}
+
+#confirmar:hover{
+    background-color: red;;
+}

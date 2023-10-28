@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Matheus Araújo De Melo">
+        <meta name="description" content="Cardapio de um restaurante facutativo">
+        <link rel="stylesheet" href="./cardapio.css">
+
+        <title> Cárdapio </title>
+    </head>
+
+    <body>
+        <header> 
+            <div>
+                <h3> Lanches salgados </h3>
+            </div>
+        </header>
+
+        <article>
+            <div>
+                <ul>
+                    <li class="lanche"> x salada </li>
+                    <li class="valor"> R$ 13,00 
+                        <ol id="ingredientes">
+                            <li class="ingredientes"> Pão, molho, carne, presunto, queijo, tomate, alface, milho e ervilha </li>
+                        </ol>
+                    </li>
+                    <input type="checkbox" id="xsalada" value="13">
+
+                    <li class="lanche"> x egg </li>
+                    <li class="valor"> R$ 14,00 
+                        <ol>
+                            <li class="ingredientes"> Pão, molho, carne, ovo, presunto, queijo, tomate, alface, milho e ervilha </li>
+                        </ol>
+                    </li>
+                    <input type="checkbox" id="xegg" value="14">
+
+                    <li class="lanche"> x bacon </li>
+                    <li class="valor"> R$ 17,00 
+                        <ol>
+                            <li class="ingredientes"> Pão, molho, carne, bacon, presunto, queijo, tomate, alface, milho e ervilha </li>
+                        </ol>
+                    </li>
+                    <input type="checkbox" id="xbacon" value="17">
+
+                    <li class="lanche"> x frango </li>
+                    <li class="valor"> R$ 17,00 
+                        <ol>
+                            <li class="ingredientes"> Pão, molho, frango, presunto, queijo, tomate, alface, milho e ervilha </li>
+                        </ol>
+                    </li>
+                    <input type="checkbox" id="xfrango" value="17">
+
+                    <li class="lanche"> x coração </li>
+                    <li class="valor"> R$18,00 
+                        <ol>
+                            <li class="ingredientes"> Pão, molho, coração, presunto, queijo, tomate, alface, milho e ervilha </li>
+                        </ol>
+                    </li>
+                    <input type="checkbox" id="xcoração" value="18">
+
+                    <li class="lanche"> x burguer </li>
+                    <li class="valor"> R$ 13,00 
+                        <ol>
+                            <li class="ingredientes"> Pão, molho, 2 carne, presunto e queijo </li>
+                        </ol>
+                    </li>
+                    <input type="checkbox" id="xburguer" value="13">
+
+                    <li class="lanche"> x calabresa </li>
+                    <li class="valor"> R$ 17,00 
+                        <ol>
+                            <li class="ingredientes"> Pão, molho, carne, calabresa, presunto, queijo, tomate, alface, milho e ervilha </li>
+                        </ol>
+                    </li>
+                    <input type="checkbox" id="xcalabresa" value="17">
+
+                    <li class="lanche"> x costela </li>
+                    <li class="valor"> R$ 18,00 
+                        <ol>
+                            <li class="ingredientes"> Pão, molho, carne de costela, queijo, tomate, alface, milho e ervilha </li>
+                        </ol>
+                    </li>
+                    <input type="checkbox" id="xcostela" value="18">
+
+                    <li class="lanche"> misto </li>
+                    <li class="valor"> R$ 11,00 
+                        <ol>
+                            <li class="ingredientes"> Pão, molho, carne, presunto e queijo </li>
+                        </ol>
+                    </li>
+                    <input type="checkbox" id="misto" value="11">
+
+                    <li class="lanche"> misto com carne </li>
+                    <li class="valor"> R$ 13,00 
+                        <ol>
+                            <li class="ingredientes"> Pão, molho, carne, presunto e queijo </li>
+                        </ol>
+                    </li>
+                    <input type="checkbox" id="mistoComCarne" value="13">
+
+                    <li class="lanche"> x camarão </li>
+                    <li class="valor"> R$ 25,00 
+                        <ol>
+                            <li class="ingredientes"> Pão, molho, camarão, presunto, queijo, tomate, alface, milho e ervilha </li>
+                        </ol>
+                    </li>
+                    <input type="checkbox" id="xcamarão" value="25">
+
+                    <li class="lanche"> x da casa </li>
+                    <li class="valor"> R$ 35,00 
+                        <ol>
+                            <li class="ingredientes"> Pão, molho, carne, ovo, presunto, queijo, bacon, frango, coração, calabresa, tomate, alface, milho e ervilha </li>
+                        </ol>
+                    </li>
+                    <input type="checkbox" id="xDaCasa" value="35">
+                </ul>
+            </div>
+        </article>
+
+        <div>
+            <button id="confirmar"> Confimar </button>
+        </div>
+
+        <article>
+            <div>
+                <h2 id="valor"> Valor: </h2>
+                <p id="resultado"> </p>
+            </div>
+        </article>
+
+        <footer>
+            <div id="footer">
+            </div>
+        </footer>
+        <script src="./cardapio.js"></script>
+    </body>
+</html>

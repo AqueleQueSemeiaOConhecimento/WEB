@@ -1,0 +1,68 @@
+.class1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color:brown;
+    border: 3px solid #0000ff;
+    width: 300px;
+    height: 20px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: aqua;
+    transition: .5s;
+    top: 0px;
+    left: 0px;
+}
+
+
+.class1:hover{
+    background-color: blueviolet;
+    border-color: black;
+    cursor: pointer;
+}
+
+.class1 ~ .class1:hover{
+    font-size: 9px;  
+    top: -20px;
+}
+
+
+.class2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color:black;
+    border: 3px solid red;
+    width: 300px;
+    height: 20px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: rgb(137, 182, 13);
+    transition: .5s;
+    top: 0px;
+    left: 0px;
+    
+    
+}
+
+
+.class2:hover{
+    background-color:chocolate;
+    border-color:forestgreen;
+    cursor: pointer;
+}
+
+.class2 ~ .class2:hover{
+    font-size: 9px;  
+    top: -20px;
+}
+
+.default{
+    border-bottom: solid 1px green !important;
+    font-size: 18px !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    text-align: center !important;
+    background-color: blue !important;
+    text-shadow: 7px 7px 7px gray !important;
+    width: 300px !important;
+}
