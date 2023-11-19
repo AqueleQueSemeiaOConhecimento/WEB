@@ -1,0 +1,58 @@
+*{
+    max-width: 320px;
+    width: 100%;
+    margin: auto 0px;
+    padding: 0px;
+}
+
+#cronometro{
+    width: 320px;
+    margin:auto 0px;
+    background-color: #ccc;
+    border: solid 4px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display:flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.box2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+button{
+    width: 80px;
+    justify-content: center;
+    background-color:chocolate;
+    text-transform: uppercase;
+    font-size: 17px;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    border: 3px solid black;
+}
+
+button:hover{
+    background-color: green;
+    animation: botao 3s forwards;
+    height: 33px;
+    color:blue;
+    border: solid 3px red;
+}
+
+@keyframes botao{
+    from{
+        transition: 3s;
+        transform: translate3d(20px, 10px, 0)
+    }
+
+    to{
+        transform: translate(0, 0, 0);
+    }
+}

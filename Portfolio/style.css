@@ -246,7 +246,7 @@ main .sobre{
         transform: translate3d(60px, 0, 0)
     }
 
-    tp{
+    to{
         transform: translate3d(0, 0, 0);
     }
 }
@@ -257,7 +257,7 @@ main .sobre{
         transform: translate3d(-60px, 0, 0)
     }
 
-    tp{
+    to{
         transform: translate3d(0, 0, 0);
     }
 }
