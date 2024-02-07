@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Matheus">
+    <meta name="description" content="Projeto prático de desenvolvimento de um web site">
+    <meta name="keywords" content="html5, tecnologia">
+
+    
+    <link rel="stylesheet" href="./normalize/normalize.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Projeto Strata</title>
+</head>
+<body>
+    
+    <header class="main-header">
+        <a href="index.html" class="main-header-link">
+            <img src="./images/eu.jpg" class="img-tam img1" alt="Uma foto de Matheus Araújo, vulgo desenvolvedor desta página">
+        </a>
+
+        <h1 class="main-header-title">
+            Trabalho de desenvolvimento de <br>
+            <strong>Matheus Araújo,</strong> ou seja,<br>
+            de um pequeno aspirante a desenvolvedor full stack.<br>
+            Retirador de <a href="https://www.youtube.com/@serliv" class="main-header-link" target="_blank">Serliv</a>
+        </h1>
+    </header>
+
+    <main class="main-content">
+
+        <section class="main-content-section">
+            <h2>Quando o header é aside e o aside é no header</h2>
+            <p>Lorem ipsum dolor sit amet. Est voluptates doloremque et ipsum possimus cum 
+                culpa placeat sit aliquid commodi At molestias voluptatem. 33 autem fugiat 
+                sit omnis atque ad assumenda iusto ut fuga quibusdam ut optio provident nam 
+                rerum iusto. Et distinctio voluptatem in voluptate ducimus non consequatur 
+                fuga? Non consequatur odio et nobis fuga et galisum quis.</p>
+
+            <a href="#" title="Veja mais" class="button-default">Veja mais</a>
+        </section>
+
+        <section class="main-content-section">
+
+            <h3>Recent Work</h3>
+
+            <article class="recent-works-card">
+                <a href="./images/01.jpg">
+                    <img src="./images/01.jpg" alt="Imagem de um carro">
+                </a>
+                <p class="recent-work-card-title">Magna sed consequat tempus</p>
+                <p>sit omnis atque ad assumenda iusto ut fuga quibusdam.</p>
+            </article>
+
+            <article class="recent-works-card">
+                <a href="./images/02.jpg">
+                    <img src="./images/02.jpg" alt="Imagem floresta">
+                </a>
+                <p class="recent-work-card-title">Ultricies lacinia interdum</p>
+                <p>sit omnis atque ad assumenda iusto ut fuga quibusdam.</p>
+            </article>
+
+            <article class="recent-works-card">
+                <a href="./images/03.jpg">
+                    <img src="./images/03.jpg" alt="Imagem de uma biblioteca">
+                </a>
+                <p class="recent-work-card-title">Tortor metus commodo</p>
+                <p>sit omnis atque ad assumenda iusto ut fuga quibusdam.</p>
+            </article>
+
+            <article class="recent-works-card">
+                <a href="./images/04.jpg">
+                    <img src="./images/04.jpg" alt="IPessoa subindo uma escada">
+                </a>
+                <p class="recent-work-card-title">Quam neque phasellus</p>
+                <p>sit omnis atque ad assumenda iusto ut fuga quibusdam.</p>
+            </article>
+
+            <article class="recent-works-card">
+                <a href="./images/05.jpg">
+                    <img src="./images/05.jpg" alt="Montanha">
+                </a>
+                <p class="recent-work-card-title">Nuncenim commodo aliquet</p>
+                <p>sit omnis atque ad assumenda iusto ut fuga quibusdam.</p>
+            </article>
+
+            <article class="recent-works-card">
+                <a href="./images/06.jpg">
+                    <img src="./images/06.jpg" alt="Pequena cabana">
+                </a>
+                <p class="recent-work-card-title">Risus ornare lacinia</p>
+                <p>sit omnis atque ad assumenda iusto ut fuga quibusdam.</p>
+            </article>
+
+            <a href="#" title="Veja mais" class="button-default">Veja Portifolio completo</a>
+
+        </section>
+
+        <section class="main-content-section">
+
+            <h3>Get in Touch</h3>
+
+            <p>Et distinctio voluptatem in voluptate ducimus non consequatur 
+                fuga? Non consequatur odio et nobis fuga et galisum quis.</p>
+
+            <form action="#" method="POST">
+
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome">
+
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+
+                <label for="mensagem">Digite sua mensagem</label>
+                <textarea name="mensagem" id="mensagem"></textarea>
+
+                <input type="submit" value="Enviar">
+
+            </form>
+
+            <address>
+
+                <p>
+                    <span>Endereço</span>
+                    1234 Rua muito bonita, São Paulo, Brasil
+                </p>
+
+                <p>
+                    <span>Telefone</span>
+                    000-000-000
+                </p>
+
+                <p>
+                    <span>Email</span>
+                    email@server.com
+                </p>
+
+            </address>
+
+        </section>
+
+        <section class="main-content-section">
+
+            <h3>Elements</h3>
+
+            <h4>Text</h4>
+            <p>Lorem <b>ipsum dolor</b>, sit amet <strong> adipisicing elit</strong>. 
+                Vitae repellat porro debitis, <i> nostrum cupiditate atque consectetur </i> 
+                illum? <em>Enim quia quod</em> in <sup>explicabo</sup> praesentium <sub>magnam</sub> facere 
+                ullam <u>accusantium.</u> Nam?, <code>code: (;;) {...}</code>. 
+                Finally, this is <a href="#">link</a>.
+            </p>
+
+            <blockquote cite="https://www.huxley.net/bnw/four.html">
+                <p>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</p>
+                <footer>—Aldous Huxley, <cite>Brave New World</cite></footer>
+            </blockquote>
+            
+            <h3>Preformatado</h3>
+
+            <pre>
+                <code>
+    &lt;scrip&gt;
+
+        alert('oi');
+
+    &lt;script&gt;
+                </code>
+            </pre>
+
+            <h4>Listas</h4>
+
+            <h5>Não ordenada</h5>
+
+            <ul>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+            </ul>
+
+            <h5>Ordenada</h5>
+
+            <ol>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+            </ol>
+
+            <h5>Alternate</h5>
+
+            <ul class="ul-alternate">
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+            </ul> 
+
+            <h5>Icons</h5>
+            <ul>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-facebook"></i></li>
+            </ul>
+
+            <h5>Actions</h5>
+
+            <p>
+                <a href="#" class="button-default">Default</a>         
+                <a href="#" class="button-default button-default-stroke">Default</a>
+            </p>
+
+            <p>
+                <a href="#" class="button-default button-default-small">Default</a>         
+                <a href="#" class="button-default button-default-stroke button-default-small">Default</a>
+            </p>
+
+            <p>
+                <a href="#" class="button-default button-default-full">Default</a>         
+                <a href="#" class="button-default button-default-stroke button-default-full">Default</a>
+            </p>
+
+            <p>
+                <a href="#" class="button-default button-default-full button-default-small">Default</a>         
+                <a href="#" class="button-default button-default-stroke button-default-small button-default-full">Default</a>
+            </p>
+
+            <h4>Table</h4>
+            <h5>Default</h5>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tfoot></tfoot>
+                <tbody>
+                    <tr>
+                        <td>Item One</td>
+                        <td>Ante turpis intefer aliquet porttitor.</td>
+                        <td>29.99</td>
+                    </tr>
+                    <tr>
+                        <td>Item Two</td>
+                        <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                        <td>29.99</td>
+                    </tr>
+                    <tr>
+                        <td>Item Three</td>
+                        <td>Norbi faucibus arcu accumsan lorem.</td>
+                        <td>29.99</td>
+                    </tr>
+                    <tr>
+                        <td>Item Four</td>
+                        <td>Vitae intefer tempus condimentum.</td>
+                        <td>19.99</td>
+                    </tr>
+                    <tr>
+                        <td>Item Five</td>
+                        <td>Ante turpis intefer aliquet porttitor.</td>
+                        <td>29.99</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h5>Alternate</h5>
+
+            <table class=" table table-alternate">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"></td>
+                        <td>100.00</td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td>Item One</td>
+                        <td>Ante turpis intefer aliquet porttitor.</td>
+                        <td>29.99</td>
+                    </tr>
+                    <tr>
+                        <td>Item Two</td>
+                        <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                        <td>29.99</td>
+                    </tr>
+                    <tr>
+                        <td>Item Three</td>
+                        <td>Norbi faucibus arcu accumsan lorem.</td>
+                        <td>29.99</td>
+                    </tr>
+                    <tr>
+                        <td>Item Four</td>
+                        <td>Vitae intefer tempus condimentum.</td>
+                        <td>19.99</td>
+                    </tr>
+                    <tr>
+                        <td>Item Five</td>
+                        <td>Ante turpis intefer aliquet porttitor.</td>
+                        <td>29.99</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h5>Buttons</h5>
+
+            <p>
+                <button class="button-default">Default</button>         
+                <button class="button-default button-default-stroke">Default</button>
+            </p>
+
+            <p>
+                <button class="button-default button-default-small">Default</button>
+                <button class="button-default button-default-stroke button-default-small">Default</button>
+            </p>
+
+            <p>
+                <button class="button-default button-default-full">Default</a>         
+                <button class="button-default button-default-stroke button-default-full">Default</button>
+            </p>
+
+            <p>
+                <button class="button-default button-default-full button-default-small">Default</button>         
+                <button class="button-default button-default-stroke button-default-small button-default-full">Default</button>
+            </p>
+
+            <input type="submit" class="button-default" value="Mandar">
+
+
+            <h5>Forms</h5>
+
+            <form action="#" method="POST">
+
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name">
+
+                <label for="email">email</label>
+                <input type="text" name="email" id="email">
+
+                <select name="select" id="id_select">
+                    <option value="0">Selecione ...</option>
+                    <option value="1">HTML</option>
+                    <option value="2">CSS</option>
+                    <option value="3">Javascript</option>
+                </select>
+
+                <label><input type="radio" value="baixa" name="prioridade">Baixa Prioridade</label>
+                <label><input type="radio" value="media" name="prioridade">Média Prioridade</label>
+                <label><input type="radio" value="alta" name="prioridade">Alta Prioridade</label>
+
+                <label><input type="checkbox" value="1" name="copy">Envie-me uma cópia</label>
+                <label><input type="checkbox" value="1" name="human">Sou Humano</label>
+
+                <label for="msg">Mensagem:</label>
+                <textarea placeholder="Digite uma mensagem" id="msg"></textarea>
+                
+                <input type="submit" class="button-default" value="Enviar">
+                <input type="reset" class="button-default-stroke" value="Enviar">
+
+            </form>
+
+        </section>
+
+        <section class="main-content-section">
+
+            <h3>Imagens</h3>
+
+            <div class="gallery-img">
+                <img src="./images/01.jpg" alt="Carro">
+            </div>
+
+            <div class="gallery-thumb">
+                <img src="./images/02.jpg" alt="Floresta bonita">
+                <img src="./images/03.jpg" alt="Biblioteca">
+                <img src="./images/04.jpg" alt="Pessoa subindo escadas">
+                <img src="./images/05.jpg" alt="Montanha bonita">
+                <img src="./images/06.jpg" alt="Pequena cabana na floresta">
+            </div>
+
+            <h4>Left &amp; Right</h4>
+
+            <p>
+                <img src="./images/eu.jpg" class="img-tam" alt="Uma foto minha" class="img-left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Vero explicabo eveniet quibusdam. Sed laudantium labore non iure error 
+                accusantium, magnam quia sequi, porro dolorem quae dolor. 
+                Natus similique laudantium deserunt. 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quod distinctio minus illum eum, voluptatibus doloribus 
+                officia facere quisquam quasi magni, iusto doloremque, ipsa soluta 
+                facilis! Amet ullam odio repellat facere.
+            </p>
+
+            <p>
+                
+                <img src="./images/eu.jpg" class="img-tam" alt="Uma foto minha" class="img-right">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Vero explicabo eveniet quibusdam. Sed laudantium labore non iure error 
+                accusantium, magnam quia sequi, porro dolorem quae dolor. 
+                Natus similique laudantium deserunt. 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quod distinctio minus illum eum, voluptatibus doloribus 
+                officia facere quisquam quasi magni, iusto doloremque, ipsa soluta 
+                facilis! Amet ullam odio repellat facere.
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer class="main-footer"></footer>
+
+    <script src="https://kit.fontawesome.com/e7a90907a8.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
