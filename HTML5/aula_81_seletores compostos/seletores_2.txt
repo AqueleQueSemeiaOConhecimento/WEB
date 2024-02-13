@@ -1,0 +1,88 @@
+// SELETORES DE ATRIBUTO
+
+    EXEMPLO 1|
+
+    [atributo]
+
+    <article>
+        <a> sem title </a>
+        <a title=""> com title </a>
+    </article>
+
+    a[title]{
+        color: red;
+    }
+
+
+# =======================================================================
+
+    EXEMPLO 2|
+
+    [atributo=""]
+
+    <article>
+        <img alt="texto">
+        <img alt="">
+    </article>
+
+    img[alt=""]{
+        border-color: red;
+    }
+
+    // seleciona o atributo com o valor "X"
+
+# =======================================================================
+
+    // SELECIONAR O ATRIBUTO QUE INICIA COM http
+
+    [atributo^="valor"]
+
+    <article>
+        <a href="..."> link interno </a>
+        <a href="http://">link externo </a>
+    </article>
+
+    a[href^=http]{
+        color: red;
+    }
+
+# =======================================================================
+
+    // SELECIONAR O ATRIBUTO QUE TERMINA COM VALOR "X"
+
+    [atributo$=""]
+
+    <article>
+        <img src="...jpg">
+        <img src="...png">
+    </article>
+
+    img[src$=".png"]{
+        border-color: red;
+    }
+
+# =======================================================================
+
+    // NOT
+
+    :not(a){
+        ...;
+    }
+
+    # SELECIONA TODOS OS ELEMENTOS DO HTML QUE NÃO É "a"
+
+
+
+    p:not(.destaque){
+        ...;
+    }
+
+    # SELECIONA TODOS OS ELEMENTOS "p" QUE NÃO TEM A CLASS .destaque
+
+
+
+    img:not([alt]){
+        display: none;
+    }
+
+    # SELECIONA TODAS AS IMG QUE NÃO TEM O ATRIBUTO "alt"

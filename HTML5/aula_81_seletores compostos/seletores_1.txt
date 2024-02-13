@@ -1,0 +1,83 @@
+desenvolvimento
+article
+h3  /h3
+p   
+a   b   /b  /a
+/p 
+
+p   
+a   b   /b  /a
+/p 
+
+p   
+a   b   /b  /a
+/p 
+/article
+
+
+    article
+_____________
+|   |   |   |
+h3  p   p   p
+    |   |   |
+    a   a   a
+    |   |   |
+    b   b   b
+
+#===================================================================================================
+// DESCENDENCIA
+
+article a{
+    color: background: red;
+}
+
+# Pego os elementos "a" dentro do article
+
+
+
+article p b{
+    color: background: red;
+}
+
+# Seleciono todo b que é descendente de p que é descendente de article
+
+
+article p > b{
+    color: background: red;
+}
+
+# Pego todo b que é filho direto de p (não pego nenhum elemento do exemplo)
+
+
+article p > a{
+    color: background: red;
+}
+
+# Pego todo "a" que é filho direto de p
+
+#===================================================================================================
+
+// IRMÃO ADJACENTE
+
+article h3 + p{
+    background:red;
+}
+
+# Seleciona o "p" que vem imediatamente após h3
+
+
+
+article p + p{
+    background:red;
+}
+
+# Seleciona todo "p" que vem depois de um "p"
+
+
+
+article h3 ~ p{
+    background:red;
+}
+
+# Seleciona todos os irmãos proximos de "h3" que vem depois de "h3", e esses irmãos são os "p"
+
